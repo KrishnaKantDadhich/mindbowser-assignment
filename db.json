@@ -1,0 +1,140 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "managerProfile": [
+    {
+      "id": 1,
+      "email": "testing",
+      "postId": 1,
+      "firstName": "testing",
+      "lastName": "testing",
+      "password": "testing",
+      "address": "testing",
+      "birthdate": "testing"
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "password": "",
+      "address": "",
+      "birthdate": "",
+      "email": "",
+      "id": 19
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "password": "",
+      "address": "",
+      "birthdate": "",
+      "email": "",
+      "id": 20
+    },
+    {
+      "firstName": "krishna",
+      "lastName": "kant",
+      "password": "12345",
+      "address": "krishna",
+      "birthdate": "123456",
+      "email": "krish@gmail.com",
+      "id": 21
+    },
+    {
+      "firstName": "krishna",
+      "lastName": "kant",
+      "password": "12345",
+      "address": "krishna",
+      "birthdate": "123456",
+      "email": "krish@gmail.com",
+      "id": 22
+    }
+  ],
+  "employeesList": [
+    {
+      "firstName": "Manu",
+      "lastName": "jkkjh",
+      "address": "jkkjh",
+      "birthDate": "kjhkj",
+      "mobile": "kjhkj",
+      "city": "kjhkj",
+      "id": 7
+    },
+    {
+      "firstName": "Manu",
+      "lastName": "jkkjh",
+      "address": "jkkjh",
+      "birthDate": "kjhkj",
+      "mobile": "kjhkj",
+      "city": "kjhkj",
+      "id": 8
+    },
+    {
+      "firstName": "Manu",
+      "lastName": "jkkjh",
+      "address": "jkkjh",
+      "birthDate": "kjhkj",
+      "mobile": "kjhkj",
+      "city": "kjhkj",
+      "id": 9
+    },
+    {
+      "firstName": "manu singh",
+      "lastName": "ljk",
+      "address": "kjlkjlk",
+      "birthDate": "kljlkj",
+      "mobile": "lkjlkjlk",
+      "city": "kljlkj",
+      "id": 10
+    },
+    {
+      "firstName": "jhkj",
+      "lastName": "kjhkj",
+      "address": "jhkjh",
+      "birthDate": "kjkjh",
+      "mobile": "jhkjh",
+      "city": "kjhk",
+      "id": 11
+    },
+    {
+      "firstName": "yogi",
+      "lastName": "kjhk",
+      "address": "kjhkj",
+      "birthDate": "kjhkj",
+      "mobile": "kjh",
+      "city": "kjhk",
+      "id": 12
+    },
+    {
+      "firstName": "",
+      "lastName": "",
+      "address": "",
+      "birthDate": "",
+      "mobile": "",
+      "city": "",
+      "id": 13
+    },
+    {
+      "firstName": "lkjlk",
+      "lastName": "lkjlkj",
+      "address": "lkjlkj",
+      "birthDate": "lkjlkj",
+      "mobile": "lkjlkj",
+      "city": "lkjlkj",
+      "id": 14
+    },
+    {
+      "firstName": "Manu",
+      "lastName": "jkkjh",
+      "address": "jkkjh",
+      "birthDate": "kjhkj",
+      "mobile": "kjhkj",
+      "city": "kjhkj",
+      "id": 15
+    }
+  ]
+}

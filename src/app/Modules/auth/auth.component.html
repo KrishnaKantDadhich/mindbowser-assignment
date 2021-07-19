@@ -1,0 +1,63 @@
+<div class="container register">
+    <div class="row">
+        <div class="col-md-3 register-left">
+            <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt="" />
+            <h3>Welcome</h3>
+            <p>You are 30 seconds away from getting your own account at MindBowser!</p>
+            <input type="submit" name="" value="Login" /><br />
+        </div>
+        <div class="col-md-9 register-right">
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <h3 class="register-heading">Register as a manager</h3>
+                    <form action="" [formGroup]="managerRegisterForm" (ngSubmit)="onSubmit()">
+                        <div class="row register-form">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="First Name *" value=""
+                                        formControlName="firstName" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Last Name *" value=""
+                                        formControlName="lastName" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Birthdate *" value=""
+                                        formControlName="dob" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Address *" value=""
+                                        formControlName="address" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" value=""
+                                        formControlName="email" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Password *" value=""
+                                        formControlName="password" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Confirm Password *"
+                                        value="" formControlName = "confirmPassword"/>
+                                </div>
+                                <input type="submit" class="btnRegister" value="Register" [disabled]="!managerRegisterForm.valid"/>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="alert alert-success d-flex align-items-center" role="alert" *ngIf = "showMessage" style="border-top-left-radius: 10% 50% ; border-bottom-right-radius: 10% 50% ; float: right;">
+                <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:"><use xlink:href="#check-circle-fill"/></svg>
+                <div>
+                  Hey {{this.managerRegisterForm.value.firstName}} ! You are successfully registered.
+                </div>
+              </div>
+        </div>
+    </div>
+
+</div>
